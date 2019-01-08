@@ -1,0 +1,17 @@
+<h4>Example 1 compact view</h4>
+<date-input-field [(compact)]="compact"></date-input-field>
+
+<h4>Example 2 wide view</h4>
+<date-input-field [(compact)]="compact1"></date-input-field>
+
+<h4>Example 3 required view <small>(delete date you will get error message to enter date)</small></h4>
+<date-input-field [(required)]="required"></date-input-field>
+
+<h4>Example 4 not required view <small>(delete date you will not get any error message to enter date)</small></h4> 
+<date-input-field [(required)]="required1"></date-input-field>
+
+<h4>Example 5 Min Date <small>(dates earlier than minDate cannot be chosen.)</small></h4>
+<date-input-field [(minDate)]="minDate"></date-input-field>
+
+<h4>Example 6 Max Date<small> (dates later than maxDate cannot be chosen.)</small></h4>
+<date-input-field [(maxDate)]="maxDate"></date-input-field>
